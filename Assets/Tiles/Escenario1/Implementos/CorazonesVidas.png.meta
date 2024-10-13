@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 158416d4caf72ef40a19bc160a98d9d6
+guid: 1817f594060b25449a5efcd2f5637d9f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,85 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_0
+      name: CorazonCompleto
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 16
-        height: 16
+        width: 148
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bcb69e00011fc4785c7d75c4ec941a
-      internalID: -1848154917
+      spriteID: 9bf7046c117ae3d419971594f7d67dc9
+      internalID: 2142348686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_1
+      name: CorazonMitad
       rect:
         serializedVersion: 2
-        x: 16
+        x: 148
         y: 0
-        width: 16
-        height: 16
+        width: 148.33333
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f454f2fd9a08fa147b7105e4f603cfb0
-      internalID: -1319558530
+      spriteID: 8840070c8e144364a9a554040cc3be96
+      internalID: 1562281746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_2
+      name: CorazonVacio
       rect:
         serializedVersion: 2
-        x: 32
+        x: 297
         y: 0
-        width: 16
-        height: 16
+        width: 148
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dee81f726b96ea438e08e6c6795c32c
-      internalID: 1635828526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 586ee34045e02064cbbfa186f9671838
-      internalID: -162737066
+      spriteID: 4f23e800b49d49a4799456b3ed5733dd
+      internalID: 62795322
       vertices: []
       indices: 
       edges: []
@@ -204,10 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Heart_Spin (16 x 16)_0: -1848154917
-      Heart_Spin (16 x 16)_1: -1319558530
-      Heart_Spin (16 x 16)_2: 1635828526
-      Heart_Spin (16 x 16)_3: -162737066
+      CorazonCompleto: 2142348686
+      CorazonMitad: 1562281746
+      CorazonVacio: 62795322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,6 +13,13 @@ public class personajeMovimiento : MonoBehaviour
     public LayerMask capaSuelo;
     private bool enSuelo;
 
+    //fuerza de impacto de colision con el enemigo
+    public float fuerzaGolpe;
+    private bool puedeMoverse = true;
+
+    //Para poner sonido de salto de nuestro objeto peronaje
+    public AudioClip sonidoSalto;
+
     private Rigidbody2D rb;
 
     // Solo si se quiere hacer animaciones
@@ -29,6 +36,10 @@ public class personajeMovimiento : MonoBehaviour
     void Update()
     {
         /* =================== MOVIMIENTO PERSONAJE =========================== */
+            //Si no puede moverse porque es golpeado por el enemigo, no se ejecuta el movimiento
+            if(!puedeMoverse) return;
+
+
             float moverObjeto = Input.GetAxis("Horizontal");
             rb.velocity = new Vector2(moverObjeto * velocidad, rb.velocity.y);
 
@@ -41,6 +52,8 @@ public class personajeMovimiento : MonoBehaviour
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
+
+
         /* ===================================================================== */
 
         /* =================== SALTO PERSONAJE =========================== */
@@ -48,6 +61,10 @@ public class personajeMovimiento : MonoBehaviour
             enSuelo = hit.collider != null;
             if(enSuelo && Input.GetKeyDown(KeyCode.Space)){
                 rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+
+                //Para poner sonido de salto de nuestro controlador de audios
+                ControladorAudios.Instance.ReproducirSonido(sonidoSalto);
+                
             }
         /* ===================================================================== */
 
@@ -72,4 +89,37 @@ public class personajeMovimiento : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * longitudRaycast);
     }
+
+    //
+    public void AplicarGolpe(){
+        puedeMoverse = false;
+
+        Vector2 direccionGolpe;
+        if(rb.velocity.x >= 0){
+            direccionGolpe = new Vector2(-1, 1);
+        }else{
+            direccionGolpe = new Vector2(1, 1);
+        }
+
+        rb.AddForce(direccionGolpe * fuerzaGolpe);
+        StartCoroutine(EsperarYAtivarMovimiento());
+    }
+
+    IEnumerator EsperarYAtivarMovimiento(){
+        yield return new WaitForSeconds(0.1f);
+
+        while(!enSuelo){
+            //Esperar al siguente frame
+            yield return null;
+        }
+
+        //Si esta en el suelo, activar el movimiento
+        puedeMoverse = true;
+    }
+    private bool EstaEnSuelo()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRaycast, capaSuelo);
+        return hit.collider != null;
+    }
+    
 }

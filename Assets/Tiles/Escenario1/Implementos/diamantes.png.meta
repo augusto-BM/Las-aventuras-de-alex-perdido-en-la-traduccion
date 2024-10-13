@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 158416d4caf72ef40a19bc160a98d9d6
+guid: 9d92a87d32629494da744b1907601d13
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_0
+      name: diamantes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 627
+        y: 4134
+        width: 1275
+        height: 1036
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bcb69e00011fc4785c7d75c4ec941a
-      internalID: -1848154917
+      spriteID: 9e605a139d2c55046a7e9117455f5532
+      internalID: 1700502566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_1
+      name: diamantes_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 2576
+        y: 3958
+        width: 875
+        height: 1234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f454f2fd9a08fa147b7105e4f603cfb0
-      internalID: -1319558530
+      spriteID: 0f2093e5486a1a44499f0fcda1153224
+      internalID: -1380716566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_2
+      name: diamantes_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
+        x: 755
+        y: 2139
+        width: 902
+        height: 1240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dee81f726b96ea438e08e6c6795c32c
-      internalID: 1635828526
+      spriteID: c2fb1d3c75d3be041a297db5934a822e
+      internalID: 1907019215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_3
+      name: diamantes_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
+        x: 2398
+        y: 2192
+        width: 1242
+        height: 1095
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 586ee34045e02064cbbfa186f9671838
-      internalID: -162737066
+      spriteID: 6540648e87480dd4484aed592f146cab
+      internalID: -929862000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamantes_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 393
+        width: 1022
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337013ddd56d1c546b9b8ee6f66d472f
+      internalID: 115529867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamantes_5
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 401
+        width: 1203
+        height: 1151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f090c3a12667044b9244499e1f7cbf
+      internalID: -1728926717
       vertices: []
       indices: 
       edges: []
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Heart_Spin (16 x 16)_0: -1848154917
-      Heart_Spin (16 x 16)_1: -1319558530
-      Heart_Spin (16 x 16)_2: 1635828526
-      Heart_Spin (16 x 16)_3: -162737066
+      diamantes_0: 1700502566
+      diamantes_1: -1380716566
+      diamantes_2: 1907019215
+      diamantes_3: -929862000
+      diamantes_4: 115529867
+      diamantes_5: -1728926717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

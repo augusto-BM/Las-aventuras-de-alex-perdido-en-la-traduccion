@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 158416d4caf72ef40a19bc160a98d9d6
+guid: ab81edf103d95964db381ccde849f0be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_0
+      name: Caminar_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 0
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bcb69e00011fc4785c7d75c4ec941a
-      internalID: -1848154917
+      spriteID: 8a232db5e055fd2419119f8efd783e2f
+      internalID: 1231028620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_1
+      name: Caminar_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 40
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f454f2fd9a08fa147b7105e4f603cfb0
-      internalID: -1319558530
+      spriteID: 4f26d13a49160a74e8c80264686c9a5c
+      internalID: -698852064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_2
+      name: Caminar_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 72
         y: 0
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dee81f726b96ea438e08e6c6795c32c
-      internalID: 1635828526
+      spriteID: 21fdc206566f4474abce022af3523893
+      internalID: -1098201702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_Spin (16 x 16)_3
+      name: Caminar_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 104
         y: 0
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 586ee34045e02064cbbfa186f9671838
-      internalID: -162737066
+      spriteID: 27b771614aa65d54cb57f6008bd8e5d3
+      internalID: 338447002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921829eb33709cb4988b7f9468f10811
+      internalID: -1764740675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a0a0f0506ad38439d0061d884ed07d
+      internalID: 248360786
       vertices: []
       indices: 
       edges: []
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Heart_Spin (16 x 16)_0: -1848154917
-      Heart_Spin (16 x 16)_1: -1319558530
-      Heart_Spin (16 x 16)_2: 1635828526
-      Heart_Spin (16 x 16)_3: -162737066
+      Caminar_0: 1231028620
+      Caminar_1: -698852064
+      Caminar_2: -1098201702
+      Caminar_3: 338447002
+      Caminar_4: -1764740675
+      Caminar_5: 248360786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
